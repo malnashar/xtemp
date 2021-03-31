@@ -81,7 +81,7 @@ class Profile extends StatelessWidget {
     },
   ];*/
 
-  var fields = [
+  /*var fields = [
     {
       "title": "Generic Name",
       "det": "Sildenafil",
@@ -157,9 +157,9 @@ class Profile extends StatelessWidget {
           "https://med.stanford.edu/wallcenter/patient_care/patient-resources/fda.html"
 
     },
-  ];
+  ];*/
 
-  var drugs =
+  /*var drugs =
   {
     {
       'Generic Name':'Acetazolamide',
@@ -619,7 +619,7 @@ class Profile extends StatelessWidget {
       'Precautions':'',
       'References':'',
     },
-  };
+  };*/
 
 
 
