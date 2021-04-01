@@ -1,3 +1,5 @@
+import 'package:flutter/cupertino.dart';
+
 class Drugs{
   static var drugs =
   {
@@ -221,7 +223,6 @@ class Drugs{
           'Thyrotoxicosis/Congenital hyperthyroidism',
       'Dose':'Neonatal dose:\n'
           '1-Hypertension: -Oral: Initial: 0.25 to 0.5 mg/kg/dose every 8 hours; increase dose slowly as needed and monitor heart rate; usual reported dose: 0.5 to 1 mg/kg/dose every 8 hours; usual maximum daily dose: 5 mg/kg/day, .\n'
-          'IV: Initial: 0.01 mg/kg slow IV push over 10 minutes; may repeat every 6 to 8 hours as needed.\n'
           '2-Tachyarrhythmias: -Oral: Initial: 0.5 to 1 mg/kg/dose for 1 dose; then 1 mg/kg/dose every 6 to 8 hr.\n'
           '3-Thyrotoxicosis/Congenital hyperthyroidism: -Oral: 0.5 to 2 mg/kg/day in divided doses every 6 to 12 hours .\n'
           'Children and Adolescents: -Oral: Initial: 0.5 to 1 mg/kg/day in 3 divided doses; maximum daily dose: 4 mg/kg/day.',
@@ -759,7 +760,6 @@ class Drugs{
           'Thyrotoxicosis/Congenital hyperthyroidism',
       'Dose':'Neonatal dose:\n'
           '1-Hypertension: -Oral: Initial: 0.25 to 0.5 mg/kg/dose every 8 hours; increase dose slowly as needed and monitor heart rate; usual reported dose: 0.5 to 1 mg/kg/dose every 8 hours; usual maximum daily dose: 5 mg/kg/day, .\n'
-          'IV: Initial: 0.01 mg/kg slow IV push over 10 minutes; may repeat every 6 to 8 hours as needed.\n'
           '2-Tachyarrhythmias: -Oral: Initial: 0.5 to 1 mg/kg/dose for 1 dose; then 1 mg/kg/dose every 6 to 8 hr.\n'
           '3-Thyrotoxicosis/Congenital hyperthyroidism: -Oral: 0.5 to 2 mg/kg/day in divided doses every 6 to 12 hours .\n'
           'Children and Adolescents: -Oral: Initial: 0.5 to 1 mg/kg/day in 3 divided doses; maximum daily dose: 4 mg/kg/day.',
@@ -1525,15 +1525,18 @@ class Drugs{
           '3) online.lexi.com',
     },
   };
-  static Map<String,String> search(String s)
+  static Set<Map<String,String>> search(String s)
   {
+    Set<Map<String,String>> l={};
     for(var elem in drugs)
       {
-        if((elem['Trade Name'].toLowerCase() == s.toLowerCase()) || (elem['Generic Name'].toLowerCase() == s.toLowerCase()))
+        if(s.isNotEmpty &&((elem['Trade Name'].toLowerCase().startsWith(s.toLowerCase())) || (elem['Generic Name'].toLowerCase().startsWith(s.toLowerCase()))))
           {
-              return elem;
+              Map<String,String> m = elem;
+              l.add(m);
           }
       }
+    return l;
   }
 
 }

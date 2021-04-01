@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:xtemp/ui/profile.dart';
-import 'package:xtemp/ui/profile.dart';
+import 'package:xtemp/ui/list.dart';
 import 'package:xtemp/logic/drugs.dart';
 
 class search extends StatefulWidget {
@@ -88,8 +88,8 @@ class _searchState extends State<search> {
                   //borderRadius: new BorderRadius.circular(8.0)),
                   onPressed: () {
                     debugPrint(_controller.text);
-                    Map<String, String> m = Drugs.search(_controller.text);
-                    if (m == null) {
+                    Set<Map<String, String>> m = Drugs.search(_controller.text);
+                    if (m.isEmpty) {
                       setState(() {
                         msg = "NO MATCHING DRUG!!";
                       });
@@ -99,9 +99,7 @@ class _searchState extends State<search> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => Profile(
-                                    drug: m,
-                                  )));
+                              builder: (context) => list_pages(drugs: m,trade: false,)));
                     }
                   },
                 ),
