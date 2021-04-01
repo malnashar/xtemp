@@ -180,23 +180,30 @@ class _searchState extends State<search> {
               Container(
                 width: 300.0,
                 height: 50.0,
-                child: new RaisedButton(
+                child: new OutlinedButton(
                   child: new Text(
                     "Search",
                     style: new TextStyle(fontSize: 22.0, color: Colors.black),
                   ),
-                  color: Colors.lightBlue,
-                  shape: new RoundedRectangleBorder(
-                      borderRadius: new BorderRadius.circular(8.0)),
+                  style: OutlinedButton.styleFrom(
+                    //primary: Colors.teal,
+                    backgroundColor: Colors.lightBlue,
+                    shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(8.0),),
+                    //textStyle: TextStyle(color: Colors.black,fontSize: 40,fontStyle: FontStyle.italic),
+                  ),
+                  //color: Colors.lightBlue,
+                  //shape: new RoundedRectangleBorder(
+                      //borderRadius: new BorderRadius.circular(8.0)),
                   onPressed: () {
                     debugPrint(_controller.text);
                     Map<String,String> m = Drugs.search(_controller.text);
                     if(m == null)
                       {
                         setState(() {
-                          msg = "NO MATCHING DRAG!!";
+                          msg = "NO MATCHING DRUG!!";
                         });
                       } else {
+                      Navigator.pop(context);//////////////////////////////////////////////////check hnaaaaa//////////////
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => Profile(drug: m,)));

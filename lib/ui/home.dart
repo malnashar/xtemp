@@ -15,7 +15,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        elevation: 0.1,
+        elevation: 2.0,
         backgroundColor: Colors.lightBlue,
         title: Text("Xtemp",style: TextStyle(
             fontSize: 27.0

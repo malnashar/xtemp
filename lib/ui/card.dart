@@ -99,7 +99,7 @@ class Single_Card extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => list_pages(
                                   drugs: Drugs.Anti_hypertensive,
-                                  trade: true,
+                                  trade: false,
                                 )));
                   }
                 else if (title == "Anti-neoplastic")
@@ -109,7 +109,7 @@ class Single_Card extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => list_pages(
                                   drugs: Drugs.Anti_neoplastic,
-                                  trade: true,
+                                  trade: false,
                                 )));
                   }
                 else if (title == "Diuretic")
@@ -119,7 +119,7 @@ class Single_Card extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => list_pages(
                                   drugs: Drugs.Diuretic,
-                                  trade: true,
+                                  trade: false,
                                 )));
                   }
                 else if (title == "Anti-viral")
@@ -129,7 +129,7 @@ class Single_Card extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => list_pages(
                                   drugs: Drugs.Anti_viral,
-                                  trade: true,
+                                  trade: false,
                                 )));
                   }
                 else if (title == "Anti-fungal")
@@ -139,7 +139,7 @@ class Single_Card extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => list_pages(
                                   drugs: Drugs.Anti_fungal,
-                                  trade: true,
+                                  trade: false,
                                 )));
                   }
                 else if (title == "Anti-microbial")
@@ -149,7 +149,7 @@ class Single_Card extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => list_pages(
                                   drugs: Drugs.Anti_microbial,
-                                  trade: true,
+                                  trade: false,
                                 )));
                   }
                 else if (title == "Anti-emetic")
@@ -159,7 +159,7 @@ class Single_Card extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => list_pages(
                                   drugs: Drugs.Anti_emetic,
-                                  trade: true,
+                                  trade: false,
                                 )));
                   }
                 else if (title == "Anti-gout")
@@ -169,7 +169,7 @@ class Single_Card extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => list_pages(
                                   drugs: Drugs.Anti_gout,
-                                  trade: true,
+                                  trade: false,
                                 )));
                   }
                 else if (title == "Anti-secretory")
@@ -179,15 +179,15 @@ class Single_Card extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => list_pages(
                                   drugs: Drugs.Anti_secretory,
-                                  trade: true,
+                                  trade: false,
                                 )));
                   }
-                /*else if (title == "Vitamins")
+                else if (title == "Vitamins")
                   {
                     Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => list_pages(drugs: Drugs.Vitamins, trade: true,)))
-                  }*/
+                        MaterialPageRoute(builder: (context) => list_pages(drugs: Drugs.Vitamins, trade: false,)));
+                  }
                 else if (title == "Bile acids")
                   {
                     Navigator.push(
@@ -195,7 +195,7 @@ class Single_Card extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => list_pages(
                                   drugs: Drugs.Bile_acids,
-                                  trade: true,
+                                  trade: false,
                                 )));
                   }
                 else if (title == "phosphodiesterase inhibitors")
@@ -205,7 +205,7 @@ class Single_Card extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => list_pages(
                                   drugs: Drugs.phosphodiesterase_inhibitors,
-                                  trade: true,
+                                  trade: false,
                                 )));
                   }
                 else if (title == "carbonic anhydrase inhibitors")
@@ -215,7 +215,7 @@ class Single_Card extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => list_pages(
                                   drugs: Drugs.carbonic_anhydrase_inhibitors,
-                                  trade: true,
+                                  trade: false,
                                 )));
                   }
               },
@@ -247,7 +247,7 @@ class Single_Card extends StatelessWidget {
                       leading: new Text(title,
                           style: new TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 15.0,
+                              fontSize: 13.0,
                               color: Colors.white)),
                     ),
                   ),

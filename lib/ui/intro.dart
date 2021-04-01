@@ -47,11 +47,19 @@ class Intro extends StatelessWidget {
                     child: Container(
                       width: 250.0,
                       height: 50.0,
-                      child: new RaisedButton(
+                      //color: Colors.black12,
+                      child: new OutlinedButton(
                         child: new Text("Start" , style: new TextStyle(fontSize: 28.0, color: Colors.white,fontWeight: FontWeight.bold),),
-                        color: Colors.black12,
-                        shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(10.0)),
+                        //color: Colors.black12,
+                        //shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(10.0)),
+                        style: OutlinedButton.styleFrom(
+                          //primary: Colors.teal,
+                          backgroundColor: Colors.black38,
+                          shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(10.0),),
+                          //textStyle: TextStyle(color: Colors.black,fontSize: 40,fontStyle: FontStyle.italic),
+                        ),
                         onPressed: () {
+                          Navigator.pop(context);////////////////////////
                           Navigator.push(
                               context,
                               MaterialPageRoute(builder: (context) => Home()));

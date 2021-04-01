@@ -713,6 +713,39 @@ class Drugs{
           '- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452384/',
     },
 
+    {
+      'Generic Name':'folic acid',
+      'Trade Name':'FOLIC ACID (AMOUN)',
+      'Indications':'Folic acid is a component of the B group of vitamins and is necessary for the normal production and maturation of red blood cells. It has been use for the treatment of folate-deficient megaloblastic anemia due to malnutrition, malabsorption syndromes (such as coeliac disease)',
+      'Dose':'The dose for folate deficient megaloblastic anemia is 1 mg PO for adults .\n Infant : 0.1 mg daily for infants,0.1 to 0.3 mg daily for children <4 years of age, 0.1 to 0.4 mg daily for children ≥4 years of age',
+      'Ingredients':'-Drug: Folic acid (5mg) 20 tablets.\n'
+                    '-Exciepents: Simple syrup qs 100 ml.\n'
+                    '-N.B: Flavor of raspberry essence may be added (2ml).',////////////////////////////////////////////////////////////
+      'Preparation (Instructions)':'1) Crush tablets in mortar to make fine powders.\n'
+          '2) Add vehicle in small quantities until smooth paste is formed. Add more vehicle to the paste until liquid is formed.\n'
+          '3) Transfer the contents into a graduated cylinder.\n'
+          '4) Use additional vehicle to rinse the remaining drug from the mortar and add it into the graduate.\n'
+          '5) Make up to final volume with vehicle. Stir well The suspension until a uniform solution was formed.\n'
+          '6) Transfer suspension to final container and label and Wrap the bottle with aluminum foil.',
+      'Packaging & Storage':'packaged in semi- transparent plastic bottle at Room temperature and protect from light.',
+      'Assessment Criteria':'- Stability of a solution is determined by changes in physiochemical properties namely changes in pH, visual (color/sedimentation) and odor\n'
+          '- Examine 1mg/ml folic acid suspension on Day 0, 7, 14, 30, 60 and 90 for changes in visual appearance, odor, Ph. and microbial contamination.\n'
+          '- Folic acid is stable in aqueous solution between 5 and 8.',
+      'Stability':'Folic acid oral suspensions stored at 4°C (refrigerated) and 25°C (room temperature) is stable up to 60 day',
+      'Beyond-use date':'60 days',///////////////////////////////////////////
+      'Monitoring Parameters':'a complete blood count (CBC) test to measure the number and appearance of the red blood cells. If there is a lack of folate, the red blood cells look large and immature.',
+      'Precautions':'- Folic acid is contraindicated for use in patients with folic acid hypersensitivity.\n'
+          '- The use of folic acid is contraindicated in patients with undiagnosed anemia so Doses greater than 0.4 mg/day should be avoided until the diagnosis of pernicious anemia is ruled out.\n'
+          '- Food and folic acid interactions : \n'
+          'Excessive consumption or using alcohol ( ethanol ) with folic acid may reduce the absorption and increase the elimination of folic acid.',
+      'References':'https://www.pdr.net/drug-summary/Folic-Acid-Tablets-folic-acid-1634.65#10 \n'
+          'https://www.drugs.com/compare/folic-acid \n'
+          'ASHP guidelines',
+    },
+
+
+
+
 
   };
 
@@ -1327,7 +1360,35 @@ class Drugs{
 
   static var Vitamins =
   {
-
+    {
+      'Generic Name':'folic acid',
+      'Trade Name':'FOLIC ACID (AMOUN)',
+      'Indications':'Folic acid is a component of the B group of vitamins and is necessary for the normal production and maturation of red blood cells. It has been use for the treatment of folate-deficient megaloblastic anemia due to malnutrition, malabsorption syndromes (such as coeliac disease)',
+      'Dose':'The dose for folate deficient megaloblastic anemia is 1 mg PO for adults .\n Infant : 0.1 mg daily for infants,0.1 to 0.3 mg daily for children <4 years of age, 0.1 to 0.4 mg daily for children ≥4 years of age',
+      'Ingredients':'-Drug: Folic acid (5mg) 20 tablets.\n'
+          '-Exciepents: Simple syrup qs 100 ml.\n'
+          '-N.B: Flavor of raspberry essence may be added (2ml).',//////////////////////////////////////////////////////////////////
+      'Preparation (Instructions)':'1) Crush tablets in mortar to make fine powders.\n'
+          '2) Add vehicle in small quantities until smooth paste is formed. Add more vehicle to the paste until liquid is formed.\n'
+          '3) Transfer the contents into a graduated cylinder.\n'
+          '4) Use additional vehicle to rinse the remaining drug from the mortar and add it into the graduate.\n'
+          '5) Make up to final volume with vehicle. Stir well The suspension until a uniform solution was formed.\n'
+          '6) Transfer suspension to final container and label and Wrap the bottle with aluminum foil.',
+      'Packaging & Storage':'packaged in semi- transparent plastic bottle at Room temperature and protect from light.',
+      'Assessment Criteria':'- Stability of a solution is determined by changes in physiochemical properties namely changes in pH, visual (color/sedimentation) and odor\n'
+          '- Examine 1mg/ml folic acid suspension on Day 0, 7, 14, 30, 60 and 90 for changes in visual appearance, odor, Ph. and microbial contamination.\n'
+          '- Folic acid is stable in aqueous solution between 5 and 8.',
+      'Stability':'Folic acid oral suspensions stored at 4°C (refrigerated) and 25°C (room temperature) is stable up to 60 day',
+      'Beyond-use date':'60 days',////////////////////////////////////////////////////////////////////////////////////
+      'Monitoring Parameters':'a complete blood count (CBC) test to measure the number and appearance of the red blood cells. If there is a lack of folate, the red blood cells look large and immature.',
+      'Precautions':'- Folic acid is contraindicated for use in patients with folic acid hypersensitivity.\n'
+          '- The use of folic acid is contraindicated in patients with undiagnosed anemia so Doses greater than 0.4 mg/day should be avoided until the diagnosis of pernicious anemia is ruled out.\n'
+          '- Food and folic acid interactions : \n'
+          'Excessive consumption or using alcohol ( ethanol ) with folic acid may reduce the absorption and increase the elimination of folic acid.',
+      'References':'https://www.pdr.net/drug-summary/Folic-Acid-Tablets-folic-acid-1634.65#10 \n'
+          'https://www.drugs.com/compare/folic-acid \n'
+          'ASHP guidelines',
+    },
   };
 
   static var Bile_acids =
