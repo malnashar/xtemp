@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:xtemp/ui/profile.dart';
 import 'package:xtemp/ui/profile.dart';
 import 'package:xtemp/logic/drugs.dart';
+
 class search extends StatefulWidget {
   @override
   _searchState createState() => _searchState();
@@ -10,25 +11,9 @@ class search extends StatefulWidget {
 class _searchState extends State<search> {
   String msg = "";
   final _controller = TextEditingController();
-  /*void initState() {
-    super.initState();
-    _controller.addListener(() {
-      final text = _controller.text.toLowerCase();
-      _controller.value = _controller.value.copyWith(
-        text: text,
-        selection: TextSelection(baseOffset: text.length, extentOffset: text.length),
-        composing: TextRange.empty,
-      );
-    });
-  }
 
-  void dispose() {
-    _controller.dispose();
-    super.dispose();
-  }*/
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
           backgroundColor: Colors.lightBlue,
@@ -37,7 +22,7 @@ class _searchState extends State<search> {
       body: Center(
         child: SingleChildScrollView(
           padding:
-          EdgeInsets.only(left: 24.0, right: 24.0, top: 10.0, bottom: 10.0),
+              EdgeInsets.only(left: 24.0, right: 24.0, top: 10.0, bottom: 10.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -82,101 +67,6 @@ class _searchState extends State<search> {
               SizedBox(
                 height: 40.0,
               ),
-              /*Row(
-                children: <Widget>[
-                  Expanded(
-                    child: Divider(
-                      color: Colors.grey,
-                    ),
-                  ),
-                  Text("  Choose Filtter  ",
-                      style: new TextStyle(
-                        color: Colors.black54,
-                        fontSize: 15.0,
-                      )),
-                  Expanded(
-                    child: Divider(
-                      color: Colors.grey,
-                    ),
-                  ),
-                ],
-              ),*/
-              /*CheckboxListTile(
-                value: true,
-                onChanged: (bool val) {},
-                title: Text("Trade Name",
-                    style: new TextStyle(
-                        color: Colors.black,
-                        fontSize: 17.0,
-                        fontWeight: FontWeight.bold
-                    )),
-                secondary: Icon(
-                  Icons.looks_one,
-                  color: Colors.lightBlue,
-                ),
-              ),*/
-
-
-
-              /*CheckboxListTile(
-                value: true,
-                onChanged: (bool val) {},
-                title: Text("Generic Name",
-                    style: new TextStyle(
-                        color: Colors.black,
-                        fontSize: 17.0,
-                        fontWeight: FontWeight.bold
-                    )),
-                secondary: Icon(
-                  Icons.looks_two,
-                  color: Colors.lightBlue,
-                ),
-              ),*/
-
-
-
-              /*CheckboxListTile(
-                value: true,
-                onChanged: (bool val) {},
-                title: Text("Trade or Generic",
-                    style: new TextStyle(
-                        color: Colors.black,
-                        fontSize: 17.0,
-                        fontWeight: FontWeight.bold
-                    )),
-                secondary: Icon(
-                  Icons.looks_3,
-                  color: Colors.lightBlue,
-                ),
-              ),*/
-
-
-              //SizedBox(height: 10.0,),
-
-              /*Row(
-                children: <Widget>[
-                  Expanded(
-                    child: Divider(
-                      color: Colors.grey,
-                    ),
-                  ),
-                  Text("  Another Filters  ",
-                      style: new TextStyle(
-                        color: Colors.black54,
-                        fontSize: 15.0,
-                      )),
-                  Expanded(
-                    child: Divider(
-                      color: Colors.grey,
-                    ),
-                  ),
-                ],
-              ),*/
-
-
-              //SizedBox(height: 35.0,),
-
-
               Container(
                 width: 300.0,
                 height: 50.0,
@@ -188,42 +78,44 @@ class _searchState extends State<search> {
                   style: OutlinedButton.styleFrom(
                     //primary: Colors.teal,
                     backgroundColor: Colors.lightBlue,
-                    shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(8.0),),
+                    shape: new RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(8.0),
+                    ),
                     //textStyle: TextStyle(color: Colors.black,fontSize: 40,fontStyle: FontStyle.italic),
                   ),
                   //color: Colors.lightBlue,
                   //shape: new RoundedRectangleBorder(
-                      //borderRadius: new BorderRadius.circular(8.0)),
+                  //borderRadius: new BorderRadius.circular(8.0)),
                   onPressed: () {
                     debugPrint(_controller.text);
-                    Map<String,String> m = Drugs.search(_controller.text);
-                    if(m == null)
-                      {
-                        setState(() {
-                          msg = "NO MATCHING DRUG!!";
-                        });
-                      } else {
-                      Navigator.pop(context);//////////////////////////////////////////////////check hnaaaaa//////////////
+                    Map<String, String> m = Drugs.search(_controller.text);
+                    if (m == null) {
+                      setState(() {
+                        msg = "NO MATCHING DRUG!!";
+                      });
+                    } else {
+                      Navigator.pop(
+                          context); //////////////////////////////////////////////////check hnaaaaa//////////////
                       Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => Profile(drug: m,)));
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => Profile(
+                                    drug: m,
+                                  )));
                     }
                   },
                 ),
               ),
-
-
-              SizedBox(height: 25.0,),
-
-              Container(
-                width: 300.0,
-                height: 50.0,
-                child: Text(
-                  msg,
-                  textAlign: TextAlign.center,
-                )
+              SizedBox(
+                height: 25.0,
               ),
-
+              Container(
+                  width: 300.0,
+                  height: 50.0,
+                  child: Text(
+                    msg,
+                    textAlign: TextAlign.center,
+                  )),
             ],
           ),
         ),

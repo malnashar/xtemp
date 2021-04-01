@@ -43,9 +43,9 @@ class Drugs{
           '- Methyl Paraben/Propyl Paraben in Ora-Sweet,Ora-Plus,Ora-Sweet SF,Ora-Blend SF: displace bilirubin-binding to albumin and may cause hyperbiliru-binemia in concentrations as low as 1.2 mg/kg.\n'
           'Adverse effects: - CNS effects: Impairment of mental alertness and/or physical coordination may occur.\n'
           '- Sulfonamide (“sulfa”) allergy: The FDA-approved product labeling for many medications containing a sulfonamide chemical group includes a broad contraindication in patients with a prior allergic reaction to sulfonamides. There is a potential for cross-reactivity between members of a specific class (eg, two antibiotic sulfonamides).',
-      'References':'1) Mark Jackson,Andrew Lowey,The handbook of extemporaneous preparation,A guide to pharmaceutical Compounding,2010 \n'
-          '2) Rita Jew, Winson Soo-Hoo, Sarah Erush, and Elham Amiri,Extemporaneous Preparation for Pediatric,Geriatric and Special Needs Patients(Third Edition),2016, American Society of Health-System Pharmacists.\n'
-          '3) online.lexi.com',
+      'References':'1)Mark Jackson,Andrew Lowey,The handbook of extemporaneous preparation,A guide to pharmaceutical Compounding,2010 \n'
+          '2)Rita Jew, Winson Soo-Hoo, Sarah Erush, and Elham Amiri,Extemporaneous Preparation for Pediatric,Geriatric and Special Needs Patients(Third Edition),2016, American Society of Health-System Pharmacists.\n'
+          '3)online.lexi.com',
     },
 
     {
@@ -79,8 +79,8 @@ class Drugs{
           '- Final product is a thick, opaque, white suspension.\n'
           '- May substitute Ora-Plus/Ora-Sweet with Ora-Blend. \n'
           '- May also substitute Ora-Plus/Ora-Sweet with Ora-Plus/Ora-Sweet SF',
-      'References':'- Handbook of extemporaneous preparations.\n'
-          '-Lexicomp.',
+      'References':'1)Handbook of extemporaneous preparations.\n'
+          '2)Lexicomp.',
     },
 
     {
@@ -139,8 +139,8 @@ class Drugs{
       'Precautions':'- Shake well before use.\n'
           '- Caution reproductive hazards.\n'
           '- Hazardous drug: must be prepared in compliance with USP <800>.',
-      'References':'- extemporaneous formulations for pediatric geriatric and special needs patients.\n'
-          ' Lexicomp',
+      'References':'1)extemporaneous formulations for pediatric geriatric and special needs patients.\n'
+          '2)Lexicomp',
     },
 
     {
@@ -179,9 +179,9 @@ class Drugs{
           '- May substitute Simple Syrup with Ora-Plus ( contraindicated in neonates).\n'
           '- The extemporaneous oral solution prepared directly from the injectables often produces a bitter or unpleasant taste. It is recommended that these drug solutions be mixed with orange or apple juice or flavored syrup before administration.\n'
           '- specialized oral syringes, not standard slip tip or Luer-Lock syringes, should always be used,  to prevent inadvertent intravenous administration.',
-      'References':'- Jew RK, Soo-Hoo W, Erush. Extemporaneous Formulations for Pediatric, Geriatric, and Special Needs Patients. 2nd ed. American Society of Health System Pharmacists. Bethesda, MD, 2010.\n'
-          '- https://www.drugs.com/ppa/cyclophosphamide.html \n'
-          '- https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/129621?cesid=anVSI8t7yvc&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dcyclophosphamide%26t%3Dname%26va%3Dcyclophosphamide#don',
+      'References':'1)Jew RK, Soo-Hoo W, Erush. Extemporaneous Formulations for Pediatric, Geriatric, and Special Needs Patients. 2nd ed. American Society of Health System Pharmacists. Bethesda, MD, 2010.\n'
+          '2)https://www.drugs.com/ppa/cyclophosphamide.html \n'
+          '3)https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/129621?cesid=anVSI8t7yvc&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dcyclophosphamide%26t%3Dname%26va%3Dcyclophosphamide#don',
     },
 
     {
@@ -206,11 +206,11 @@ class Drugs{
           'liver enzymes',
       'Precautions':'- Shake well before use.\n'
           '- avoid freezing and excessive heat; protect from light',
-      'References':'- Nahata MC, MOrosco RS, Hipple TF. Stability of amlodipine besylate in two liquid dosage forms. J Am Pharm Assoc 1999;39: 375-7.\n'
-          '- lexiComp.\n'
-          '- https://pubmed.ncbi.nlm.nih.gov/10363465/ \n'
-          '- https://www.drugs.com/ppa/amlodipine.html \n'
-          '- https://www.medindia.net/drugs/drug-food-interactions/amlodipine.htm',
+      'References':'1)Nahata MC, MOrosco RS, Hipple TF. Stability of amlodipine besylate in two liquid dosage forms. J Am Pharm Assoc 1999;39: 375-7.\n'
+          '2)lexiComp.\n'
+          '3)https://pubmed.ncbi.nlm.nih.gov/10363465/ \n'
+          '4)https://www.drugs.com/ppa/amlodipine.html \n'
+          '5)https://www.medindia.net/drugs/drug-food-interactions/amlodipine.htm',
     },
 
     {
@@ -248,11 +248,11 @@ class Drugs{
           '3) If exacerbation of angina occurs during discontinuation of therapy, it is advised to reinstitute propranolol therapy and take other measures appropriate for the management of unstable angina.\n'
           '4) It should be used with caution in patients with impaired hepatic or renal function. It is not indicated for the treatment of hypertensive emergencies.\n'
           '5) Beta-adrenergic receptor blockade can cause reduction of intraocular pressure. Patients should be told that Inderal may interfere with the glaucoma screening test. Withdrawal may lead to a return of increased intraocular pressure.',
-      'References':'- Jew RK, Soo-Hoo W, Erush. Extemporaneous Formulations for Pediatric, Geriatric, and Special Needs Patients. 2nd ed. American Society of Health System Pharmacists. Bethesda, MD, 2010..\n'
-          '- https://www.drugs.com/pro/inderal.html#s-42232-9 \n'
-          '- https://www.pdr.net/drug-summary/Propranolol-Hydrochloride-Oral-Solution-propranolol-hydrochloride-2656#1 \n'
-          '- https://espace.library.uq.edu.au/view/UQ:297997 \n'
-          '- https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/129960?cesid=5ne0iaQeGHL&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dpropranolol%26t%3Dname%26va%3Dpropranolol',
+      'References':'1)Jew RK, Soo-Hoo W, Erush. Extemporaneous Formulations for Pediatric, Geriatric, and Special Needs Patients. 2nd ed. American Society of Health System Pharmacists. Bethesda, MD, 2010..\n'
+          '2)https://www.drugs.com/pro/inderal.html#s-42232-9 \n'
+          '3)https://www.pdr.net/drug-summary/Propranolol-Hydrochloride-Oral-Solution-propranolol-hydrochloride-2656#1 \n'
+          '4)https://espace.library.uq.edu.au/view/UQ:297997 \n'
+          '5)https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/129960?cesid=5ne0iaQeGHL&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dpropranolol%26t%3Dname%26va%3Dpropranolol',
     },
 
     {
@@ -299,9 +299,9 @@ class Drugs{
       'Precautions':'- Shake well before use & keep out of reach of children.\n'
           '- Contraindicated with Sulfonamide hypersensitivity, thiazide diuretic hypersensitivity.\n'
           '- Contraindicated with electrolyte imbalance.',
-      'References':'- https://www.drugs.com/lasix.html \n'
-          '- https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/130112?cesid=4Q7jsCtROqa&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dfurosemide%26t%3Dname#dop \n'
-          '- https://www.uspharmacist.com/article/furosemide-10-mg-ml-oral-suspension',
+      'References':'1)https://www.drugs.com/lasix.html \n'
+          '2)https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/130112?cesid=4Q7jsCtROqa&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dfurosemide%26t%3Dname#dop \n'
+          '3)https://www.uspharmacist.com/article/furosemide-10-mg-ml-oral-suspension',
     },
 
     {
@@ -329,8 +329,8 @@ class Drugs{
       'Beyond-use date':'42 days.',
       'Monitoring Parameters':'ECG (if applicable in high-risk or elderly patients); potassium, magnesium. Monitor for signs of serotonin syndrome; monitor for decreased bowel activity.',
       'Precautions':'Do not disperse the tablets or solution in grapefruit juice.',
-      'References':'- Online lexicomp \n'
-          '- https://www.pdr.net/drug-summary/Ondansetron-ondansetron-hydrochloride-3428#8',
+      'References':'1)Online lexicomp \n'
+          '2)https://www.pdr.net/drug-summary/Ondansetron-ondansetron-hydrochloride-3428#8',
     },
 
     {
@@ -366,9 +366,9 @@ class Drugs{
           '5) Critically-ill patients: Repeat rRT-PCR or viral culture may help to.',
       'Precautions':'1) May also use Ora-Sweet SF or Simple Syrup in place of cherry syrup.\n'
           '2) Shake well before use.',
-      'References':'1) Lexi comp.\n'
-          '2) Formulary of Extemporaneous Oral Liquid Medications.\n'
-          '3) https://www.uspharmacist.com/article/tamiflu-oral-suspension.',
+      'References':'1)Lexi comp.\n'
+          '2)Formulary of Extemporaneous Oral Liquid Medications.\n'
+          '3)https://www.uspharmacist.com/article/tamiflu-oral-suspension.',
     },
 
     {
@@ -400,9 +400,9 @@ class Drugs{
       'Beyond-use date':'60 days',
       'Monitoring Parameters':'Blood pressure, serum electrolytes (potassium, sodium), renal function, I & O ratios and daily weight throughout therapy',
       'Precautions':'Caution hazardous drug, Shake well before use',
-      'References':'- Extemporaneous FORMULATION, PHARMACEUTICAL SERVICES DIVISION Ministry of Health Malaysia Pharmaceutical Services Division Ministry of Health Malaysia Lot 36, Jalan Universiti, 46350 Petaling Jaya, Selangor.\n'
-          '- Extemporaneous formulations for pediatric, Geriatric, and special patients ASHP publication.\n'
-          '- https://online.lexi.com/lco/action/doc/retrieve/docid/multinat_f/4669048?cesid=69tkgXOD2fi&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3DSpironolactone%26t%3Dname%26va%3DSpironolactone#dop',
+      'References':'1)Extemporaneous FORMULATION, PHARMACEUTICAL SERVICES DIVISION Ministry of Health Malaysia Pharmaceutical Services Division Ministry of Health Malaysia Lot 36, Jalan Universiti, 46350 Petaling Jaya, Selangor.\n'
+          '2)Extemporaneous formulations for pediatric, Geriatric, and special patients ASHP publication.\n'
+          '3)https://online.lexi.com/lco/action/doc/retrieve/docid/multinat_f/4669048?cesid=69tkgXOD2fi&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3DSpironolactone%26t%3Dname%26va%3DSpironolactone#dop',
     },
 
     {
@@ -442,10 +442,10 @@ class Drugs{
           '- testing for thiopurine methyltransferase (TPMT) deficiency\n'
           '- clinical signs of portal hypertension or hepatic sinusoidal obstruction syndrome (SOS; veno-occlusive disease)',
       'Precautions':'Hazardous agent; use appropriate precautions for handling and disposal; thioguanine is potentially carcinogenic and teratogenic',
-      'References':'- https://somepomed.org/articulos/contents/mobipreview.htm?0/59/958 \n'
-          '- Formulary of Extemporaneous Oral Liquid Medication version 2. \n'
-          '- https://www.drugs.com/ppa/thioguanine.html \n'
-          '- LexiComp',
+      'References':'1)https://somepomed.org/articulos/contents/mobipreview.htm?0/59/958 \n'
+          '2)Formulary of Extemporaneous Oral Liquid Medication version 2. \n'
+          '3)https://www.drugs.com/ppa/thioguanine.html \n'
+          '4)LexiComp',
     },
 
     {
@@ -484,9 +484,9 @@ class Drugs{
           '- Monitor liver function tests at baseline, halfway through the first cycle, prior to each subsequent cycle, and at ~2 to 4 weeks after the last dose. Evaluate pregnancy status prior to use in females of reproductive potential. Monitor for lymphopenia and for signs/symptoms of Pneumocystis jirovecii pneumonia.',
       'Precautions':'- The sample bottles should be shaken for approximately 10 seconds before use.\n'
           '- The com-pounded suspensions had a pinkish color however Samples stored at room temperature darkened in color over 14 days as decomposition increased, eventually developing a brownish color by 21 days.',
-      'References':'- https://www.sefh.es/fichadjuntos/TemozolomideSuspension2006.pdf \n'
-          '- https://pubmed.ncbi.nlm.nih.gov/23974320/ \n'
-          '- https://www.drugs.com/compare/temodar-vs-avastin',
+      'References':'1)https://www.sefh.es/fichadjuntos/TemozolomideSuspension2006.pdf \n'
+          '2)https://pubmed.ncbi.nlm.nih.gov/23974320/ \n'
+          '3)https://www.drugs.com/compare/temodar-vs-avastin',
     },
 
     {
@@ -523,9 +523,9 @@ class Drugs{
       'Monitoring Parameters':'Blood pressure.\n'
           'Heart Rate',
       'Precautions':'Shake bottle before use.',
-      'References':'- Nahata MC, Morosco RS, Brady MT. Extemporaneous sildenafil citrate oral suspensions for the treatment of pulmonary hypertension in children. Am J Health Syst Pharm 2006;63:254-7 \n'
-          '- Jew RK, Soo-Hoo W, Erush. Extemporaneous Formulations for Pediatric, Geriatric, and Special Needs Patients. 2nd ed. American Society of Health System Pharmacists. Bethesda, MD, 2010. \n'
-          '- LexiComp.',
+      'References':'1)Nahata MC, Morosco RS, Brady MT. Extemporaneous sildenafil citrate oral suspensions for the treatment of pulmonary hypertension in children. Am J Health Syst Pharm 2006;63:254-7 \n'
+          '2)Jew RK, Soo-Hoo W, Erush. Extemporaneous Formulations for Pediatric, Geriatric, and Special Needs Patients. 2nd ed. American Society of Health System Pharmacists. Bethesda, MD, 2010. \n'
+          '3)LexiComp.',
     },
 
     {
@@ -554,8 +554,8 @@ class Drugs{
       'Precautions':'- Shake Well, Cytotoxic Material Handle Properly, Not for Injection.\n'
           '- use appropriate precautions when handling and disposing.\n'
           '- Prior to oral administration, further mix with fruit juice (orange, apple, or lemon; NOT grapefruit juice) to a concentration of <0.4 mg/mL; once mixed with fruit juice, use within 3 hours.',
-      'References':'- GPPG Oral Liquid Formulary V2 - Aug 2018.\n'
-          '- Lexicomp.',
+      'References':'1)GPPG Oral Liquid Formulary V2 - Aug 2018.\n'
+          '2)Lexicomp.',
     },
 
     {
@@ -590,11 +590,11 @@ class Drugs{
           '- Toxic: Urinalysis, BUN, SCr, AST and ALT.\n'
           '- physicial examination: encephalopathic changes.',
       'Precautions':'Shake well, protect from ligh',
-      'References':'1) https://online.lexi.com/lco/action/doc/retrieve/docid/multinat_f/4669001?cesid=07SndIgWtuA&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dciprofloxacin%26t%3Dname%26va%3Dciprofloxacin#doa \n'
-          '2)     • Ministry of Health of Malaysia, Extemporaneous Formulary 2011 Pharmaceutical Services Division \n'
+      'References':'1)https://online.lexi.com/lco/action/doc/retrieve/docid/multinat_f/4669001?cesid=07SndIgWtuA&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dciprofloxacin%26t%3Dname%26va%3Dciprofloxacin#doa \n'
+          '2)Ministry of Health of Malaysia, Extemporaneous Formulary 2011 Pharmaceutical Services Division: \n'
           'https://www.pharmacy.gov.my/v2/sites/default/files/document-upload/moh-extemporaneous-formulary-2011.pdf \n'
-          '3) Extemporaneous formulations for pediatric, Geriatric, and special patients ASHP publication.\n'
-          '4) https://pubmed.ncbi.nlm.nih.gov/23989641/#:~:text=A%20suspension%20was%20prepared%20by,suspension%20was%2050%20mg%2FmL.',
+          '3)Extemporaneous formulations for pediatric, Geriatric, and special patients ASHP publication.\n'
+          '4)https://pubmed.ncbi.nlm.nih.gov/23989641/#:~:text=A%20suspension%20was%20prepared%20by,suspension%20was%2050%20mg%2FmL.',
     },
 
     {
@@ -625,9 +625,9 @@ class Drugs{
       'Precautions':'- Procedures for proper handling and disposal of these oral anticancer drugs should be followed based on National Institute for Occupational Safety and Health recommendations. Skin contact or inhalation of contents of capsules or crushed tablets may have teratogenic effects; pregnant women or nonpregnant women of childbearing age who are caregivers should avoid direct contact.\n'
           '- Capsule may be opened and the contents may be crushed or chewed.\n'
           '- No pharmacokinetic data on administration of suspension or solution by feeding tube are available. Administration of the liquid through a feeding tube (e.g., nasogastric tube) may be acceptable.',
-      'References':'- https://www.drugs.com/ppa/procarbazine.html#:~:text=Extemporaneously%20Prepared,incremental%20proportions%3B%20mix%20until%20uniform. \n'
-          '- Lam, M. S. (2011). Extemporaneous compounding of oral liquid dosage formulations and alternative drug delivery methods for anticancer drugs. Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy, 31(2), 164-192.\n'
-          '- Rucki, R. J. (1976). Procarbazine Hydrochloride. Analytical Profiles of Drug Substances, 403–427.',
+      'References':'1)https://www.drugs.com/ppa/procarbazine.html#:~:text=Extemporaneously%20Prepared,incremental%20proportions%3B%20mix%20until%20uniform. \n'
+          '2)Lam, M. S. (2011). Extemporaneous compounding of oral liquid dosage formulations and alternative drug delivery methods for anticancer drugs. Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy, 31(2), 164-192.\n'
+          '3)Rucki, R. J. (1976). Procarbazine Hydrochloride. Analytical Profiles of Drug Substances, 403–427.',
     },
 
     {
@@ -666,8 +666,8 @@ class Drugs{
       'Precautions':'Shake well and refrigerate.\n'
           '- Excipients/Preservatives Safety precautions for Neonates:\n'
           'Methyl Paraben in Simple Syrup NF: displace bilirubin-binding to albumin and may cause hyperbiliru-binemia in concentrations as low as 1.2 mg/kg.',
-      'References':'-  Rita Jew, Winson Soo-Hoo, Sarah Erush, and Elham Amiri, Extemporaneous Preparation for Pediatric,Geriatric and Special Needs Patients(Third Edition),2016, American Society of Health-System Pharmacists.\n'
-          '- https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/129997?cesid=5afAg0hvXML&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3DacetaZOLAMIDE%252520oral%26t%3Dname%26va%3DacetaZOLAMIDE%252520oral#adm',
+      'References':'1)Rita Jew, Winson Soo-Hoo, Sarah Erush, and Elham Amiri, Extemporaneous Preparation for Pediatric,Geriatric and Special Needs Patients(Third Edition),2016, American Society of Health-System Pharmacists.\n'
+          '2)https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/129997?cesid=5afAg0hvXML&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3DacetaZOLAMIDE%252520oral%26t%3Dname%26va%3DacetaZOLAMIDE%252520oral#adm',
     },
 
     {
@@ -706,11 +706,11 @@ class Drugs{
       'Precautions':'- large volumes of sodium bicarbonate as a vehicle may be clinically inappropriate for some patients (e.g. congestive cardiac failure, severely fluid-restricted ,chronic renal impairment, metabolic imbalances ).\n'
           '- long period treatment with acid suppressing medication can cause vitamin b12 deficiency and bone fractures.\n'
           '- avoid use of omeprazole with hepatic disease patients .',
-      'References':'- https://www.webmd.com/drugs/2/drug-3766-2250/omeprazole-oral/omeprazole-delayed-release-tablet-oral/details#:~:text=Omeprazole%20is%20used%20to%20treat,difficulty%20swallowing%2C%20and%20persistent%20cough \n'
-          '- https://www.drugs.com/ppa/omeprazole.html \n'
-          '- Handbook of extemporaneous preparation \n'
-          '- https://pdr.net/drug-summary/Omeprazole-omeprazole-24360#8 \n'
-          '- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452384/',
+      'References':'1)https://www.webmd.com/drugs/2/drug-3766-2250/omeprazole-oral/omeprazole-delayed-release-tablet-oral/details#:~:text=Omeprazole%20is%20used%20to%20treat,difficulty%20swallowing%2C%20and%20persistent%20cough \n'
+          '2)https://www.drugs.com/ppa/omeprazole.html \n'
+          '3)Handbook of extemporaneous preparation \n'
+          '4)https://pdr.net/drug-summary/Omeprazole-omeprazole-24360#8 \n'
+          '5)https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452384/',
     },
 
     {
@@ -738,9 +738,9 @@ class Drugs{
           '- The use of folic acid is contraindicated in patients with undiagnosed anemia so Doses greater than 0.4 mg/day should be avoided until the diagnosis of pernicious anemia is ruled out.\n'
           '- Food and folic acid interactions : \n'
           'Excessive consumption or using alcohol ( ethanol ) with folic acid may reduce the absorption and increase the elimination of folic acid.',
-      'References':'https://www.pdr.net/drug-summary/Folic-Acid-Tablets-folic-acid-1634.65#10 \n'
-          'https://www.drugs.com/compare/folic-acid \n'
-          'ASHP guidelines',
+      'References':'1)https://www.pdr.net/drug-summary/Folic-Acid-Tablets-folic-acid-1634.65#10 \n'
+          '2)https://www.drugs.com/compare/folic-acid \n'
+          '3)ASHP guidelines',
     },
 
 
@@ -786,11 +786,11 @@ class Drugs{
           '3) If exacerbation of angina occurs during discontinuation of therapy, it is advised to reinstitute propranolol therapy and take other measures appropriate for the management of unstable angina.\n'
           '4) It should be used with caution in patients with impaired hepatic or renal function. It is not indicated for the treatment of hypertensive emergencies.\n'
           '5) Beta-adrenergic receptor blockade can cause reduction of intraocular pressure. Patients should be told that Inderal may interfere with the glaucoma screening test. Withdrawal may lead to a return of increased intraocular pressure.',
-      'References':'- Jew RK, Soo-Hoo W, Erush. Extemporaneous Formulations for Pediatric, Geriatric, and Special Needs Patients. 2nd ed. American Society of Health System Pharmacists. Bethesda, MD, 2010..\n'
-          '- https://www.drugs.com/pro/inderal.html#s-42232-9 \n'
-          '- https://www.pdr.net/drug-summary/Propranolol-Hydrochloride-Oral-Solution-propranolol-hydrochloride-2656#1 \n'
-          '- https://espace.library.uq.edu.au/view/UQ:297997 \n'
-          '- https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/129960?cesid=5ne0iaQeGHL&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dpropranolol%26t%3Dname%26va%3Dpropranolol',
+      'References':'1)Jew RK, Soo-Hoo W, Erush. Extemporaneous Formulations for Pediatric, Geriatric, and Special Needs Patients. 2nd ed. American Society of Health System Pharmacists. Bethesda, MD, 2010..\n'
+          '2)https://www.drugs.com/pro/inderal.html#s-42232-9 \n'
+          '3)https://www.pdr.net/drug-summary/Propranolol-Hydrochloride-Oral-Solution-propranolol-hydrochloride-2656#1 \n'
+          '4)https://espace.library.uq.edu.au/view/UQ:297997 \n'
+          '5)https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/129960?cesid=5ne0iaQeGHL&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dpropranolol%26t%3Dname%26va%3Dpropranolol',
     },
     {
       'Generic Name':'Amlodipine',
@@ -814,11 +814,11 @@ class Drugs{
           'liver enzymes',
       'Precautions':'- Shake well before use.\n'
           '- avoid freezing and excessive heat; protect from light',
-      'References':'- Nahata MC, MOrosco RS, Hipple TF. Stability of amlodipine besylate in two liquid dosage forms. J Am Pharm Assoc 1999;39: 375-7.\n'
-          '- lexiComp.\n'
-          '- https://pubmed.ncbi.nlm.nih.gov/10363465/ \n'
-          '- https://www.drugs.com/ppa/amlodipine.html \n'
-          '- https://www.medindia.net/drugs/drug-food-interactions/amlodipine.htm',
+      'References':'1)Nahata MC, MOrosco RS, Hipple TF. Stability of amlodipine besylate in two liquid dosage forms. J Am Pharm Assoc 1999;39: 375-7.\n'
+          '2)lexiComp.\n'
+          '3)https://pubmed.ncbi.nlm.nih.gov/10363465/ \n'
+          '4)https://www.drugs.com/ppa/amlodipine.html \n'
+          '5)https://www.medindia.net/drugs/drug-food-interactions/amlodipine.htm',
     },
 
   };
@@ -861,9 +861,9 @@ class Drugs{
           '- Monitor liver function tests at baseline, halfway through the first cycle, prior to each subsequent cycle, and at ~2 to 4 weeks after the last dose. Evaluate pregnancy status prior to use in females of reproductive potential. Monitor for lymphopenia and for signs/symptoms of Pneumocystis jirovecii pneumonia.',
       'Precautions':'- The sample bottles should be shaken for approximately 10 seconds before use.\n'
           '- The com-pounded suspensions had a pinkish color however Samples stored at room temperature darkened in color over 14 days as decomposition increased, eventually developing a brownish color by 21 days.',
-      'References':'- https://www.sefh.es/fichadjuntos/TemozolomideSuspension2006.pdf \n'
-          '- https://pubmed.ncbi.nlm.nih.gov/23974320/ \n'
-          '- https://www.drugs.com/compare/temodar-vs-avastin',
+      'References':'1)https://www.sefh.es/fichadjuntos/TemozolomideSuspension2006.pdf \n'
+          '2)https://pubmed.ncbi.nlm.nih.gov/23974320/ \n'
+          '3)https://www.drugs.com/compare/temodar-vs-avastin',
     },
     {
       'Generic Name':'Thioguanine',
@@ -902,10 +902,10 @@ class Drugs{
           '- testing for thiopurine methyltransferase (TPMT) deficiency\n'
           '- clinical signs of portal hypertension or hepatic sinusoidal obstruction syndrome (SOS; veno-occlusive disease)',
       'Precautions':'Hazardous agent; use appropriate precautions for handling and disposal; thioguanine is potentially carcinogenic and teratogenic',
-      'References':'- https://somepomed.org/articulos/contents/mobipreview.htm?0/59/958 \n'
-          '- Formulary of Extemporaneous Oral Liquid Medication version 2. \n'
-          '- https://www.drugs.com/ppa/thioguanine.html \n'
-          '- LexiComp',
+      'References':'1)https://somepomed.org/articulos/contents/mobipreview.htm?0/59/958 \n'
+          '2)Formulary of Extemporaneous Oral Liquid Medication version 2. \n'
+          '3)https://www.drugs.com/ppa/thioguanine.html \n'
+          '4)LexiComp',
     },
     {
       'Generic Name':'Procarbazine',
@@ -935,9 +935,9 @@ class Drugs{
       'Precautions':'- Procedures for proper handling and disposal of these oral anticancer drugs should be followed based on National Institute for Occupational Safety and Health recommendations. Skin contact or inhalation of contents of capsules or crushed tablets may have teratogenic effects; pregnant women or nonpregnant women of childbearing age who are caregivers should avoid direct contact.\n'
           '- Capsule may be opened and the contents may be crushed or chewed.\n'
           '- No pharmacokinetic data on administration of suspension or solution by feeding tube are available. Administration of the liquid through a feeding tube (e.g., nasogastric tube) may be acceptable.',
-      'References':'- https://www.drugs.com/ppa/procarbazine.html#:~:text=Extemporaneously%20Prepared,incremental%20proportions%3B%20mix%20until%20uniform. \n'
-          '- Lam, M. S. (2011). Extemporaneous compounding of oral liquid dosage formulations and alternative drug delivery methods for anticancer drugs. Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy, 31(2), 164-192.\n'
-          '- Rucki, R. J. (1976). Procarbazine Hydrochloride. Analytical Profiles of Drug Substances, 403–427.',
+      'References':'1)https://www.drugs.com/ppa/procarbazine.html#:~:text=Extemporaneously%20Prepared,incremental%20proportions%3B%20mix%20until%20uniform. \n'
+          '2)Lam, M. S. (2011). Extemporaneous compounding of oral liquid dosage formulations and alternative drug delivery methods for anticancer drugs. Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy, 31(2), 164-192.\n'
+          '3)Rucki, R. J. (1976). Procarbazine Hydrochloride. Analytical Profiles of Drug Substances, 403–427.',
     },
     {
       'Generic Name':'Etoposide',
@@ -965,8 +965,8 @@ class Drugs{
       'Precautions':'- Shake Well, Cytotoxic Material Handle Properly, Not for Injection.\n'
           '- use appropriate precautions when handling and disposing.\n'
           '- Prior to oral administration, further mix with fruit juice (orange, apple, or lemon; NOT grapefruit juice) to a concentration of <0.4 mg/mL; once mixed with fruit juice, use within 3 hours.',
-      'References':'- GPPG Oral Liquid Formulary V2 - Aug 2018.\n'
-          '- Lexicomp.',
+      'References':'1)GPPG Oral Liquid Formulary V2 - Aug 2018.\n'
+          '2)Lexicomp.',
     },
     {
       'Generic Name':'cyclophosphamide',
@@ -1004,9 +1004,9 @@ class Drugs{
           '- May substitute Simple Syrup with Ora-Plus ( contraindicated in neonates).\n'
           '- The extemporaneous oral solution prepared directly from the injectables often produces a bitter or unpleasant taste. It is recommended that these drug solutions be mixed with orange or apple juice or flavored syrup before administration.\n'
           '- specialized oral syringes, not standard slip tip or Luer-Lock syringes, should always be used,  to prevent inadvertent intravenous administration.',
-      'References':'- Jew RK, Soo-Hoo W, Erush. Extemporaneous Formulations for Pediatric, Geriatric, and Special Needs Patients. 2nd ed. American Society of Health System Pharmacists. Bethesda, MD, 2010.\n'
-          '- https://www.drugs.com/ppa/cyclophosphamide.html \n'
-          '- https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/129621?cesid=anVSI8t7yvc&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dcyclophosphamide%26t%3Dname%26va%3Dcyclophosphamide#don',
+      'References':'1)Jew RK, Soo-Hoo W, Erush. Extemporaneous Formulations for Pediatric, Geriatric, and Special Needs Patients. 2nd ed. American Society of Health System Pharmacists. Bethesda, MD, 2010.\n'
+          '2)https://www.drugs.com/ppa/cyclophosphamide.html \n'
+          '3)https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/129621?cesid=anVSI8t7yvc&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dcyclophosphamide%26t%3Dname%26va%3Dcyclophosphamide#don',
     },
 
   };
@@ -1057,9 +1057,9 @@ class Drugs{
       'Precautions':'- Shake well before use & keep out of reach of children.\n'
           '- Contraindicated with Sulfonamide hypersensitivity, thiazide diuretic hypersensitivity.\n'
           '- Contraindicated with electrolyte imbalance.',
-      'References':'- https://www.drugs.com/lasix.html \n'
-          '- https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/130112?cesid=4Q7jsCtROqa&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dfurosemide%26t%3Dname#dop \n'
-          '- https://www.uspharmacist.com/article/furosemide-10-mg-ml-oral-suspension',
+      'References':'1)https://www.drugs.com/lasix.html \n'
+          '2)https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/130112?cesid=4Q7jsCtROqa&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dfurosemide%26t%3Dname#dop \n'
+          '3)https://www.uspharmacist.com/article/furosemide-10-mg-ml-oral-suspension',
     },
     {
       'Generic Name':'Spironolactone',
@@ -1090,9 +1090,9 @@ class Drugs{
       'Beyond-use date':'60 days',
       'Monitoring Parameters':'Blood pressure, serum electrolytes (potassium, sodium), renal function, I & O ratios and daily weight throughout therapy',
       'Precautions':'Caution hazardous drug, Shake well before use',
-      'References':'- Extemporaneous FORMULATION, PHARMACEUTICAL SERVICES DIVISION Ministry of Health Malaysia Pharmaceutical Services Division Ministry of Health Malaysia Lot 36, Jalan Universiti, 46350 Petaling Jaya, Selangor.\n'
-          '- Extemporaneous formulations for pediatric, Geriatric, and special patients ASHP publication.\n'
-          '- https://online.lexi.com/lco/action/doc/retrieve/docid/multinat_f/4669048?cesid=69tkgXOD2fi&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3DSpironolactone%26t%3Dname%26va%3DSpironolactone#dop',
+      'References':'1)Extemporaneous FORMULATION, PHARMACEUTICAL SERVICES DIVISION Ministry of Health Malaysia Pharmaceutical Services Division Ministry of Health Malaysia Lot 36, Jalan Universiti, 46350 Petaling Jaya, Selangor.\n'
+          '2)Extemporaneous formulations for pediatric, Geriatric, and special patients ASHP publication.\n'
+          '3)https://online.lexi.com/lco/action/doc/retrieve/docid/multinat_f/4669048?cesid=69tkgXOD2fi&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3DSpironolactone%26t%3Dname%26va%3DSpironolactone#dop',
     },
 
   };
@@ -1131,9 +1131,9 @@ class Drugs{
           '5) Critically-ill patients: Repeat rRT-PCR or viral culture may help to.',
       'Precautions':'1) May also use Ora-Sweet SF or Simple Syrup in place of cherry syrup.\n'
           '2) Shake well before use.',
-      'References':'1) Lexi comp.\n'
-          '2) Formulary of Extemporaneous Oral Liquid Medications.\n'
-          '3) https://www.uspharmacist.com/article/tamiflu-oral-suspension.',
+      'References':'1)Lexi comp.\n'
+          '2)Formulary of Extemporaneous Oral Liquid Medications.\n'
+          '3)https://www.uspharmacist.com/article/tamiflu-oral-suspension.',
     },
   };
 
@@ -1167,8 +1167,8 @@ class Drugs{
       'Precautions':'- Shake well before use.\n'
           '- Caution reproductive hazards.\n'
           '- Hazardous drug: must be prepared in compliance with USP <800>.',
-      'References':'- extemporaneous formulations for pediatric geriatric and special needs patients.\n'
-          ' Lexicomp',
+      'References':'1)extemporaneous formulations for pediatric geriatric and special needs patients.\n'
+          '2)Lexicomp',
     },
   };
 
@@ -1206,11 +1206,11 @@ class Drugs{
           '- Toxic: Urinalysis, BUN, SCr, AST and ALT.\n'
           '- physicial examination: encephalopathic changes.',
       'Precautions':'Shake well, protect from ligh',
-      'References':'1) https://online.lexi.com/lco/action/doc/retrieve/docid/multinat_f/4669001?cesid=07SndIgWtuA&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dciprofloxacin%26t%3Dname%26va%3Dciprofloxacin#doa \n'
-          '2)     • Ministry of Health of Malaysia, Extemporaneous Formulary 2011 Pharmaceutical Services Division \n'
+      'References':'1)https://online.lexi.com/lco/action/doc/retrieve/docid/multinat_f/4669001?cesid=07SndIgWtuA&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3Dciprofloxacin%26t%3Dname%26va%3Dciprofloxacin#doa \n'
+          '2)Ministry of Health of Malaysia, Extemporaneous Formulary 2011 Pharmaceutical Services Division: \n'
           'https://www.pharmacy.gov.my/v2/sites/default/files/document-upload/moh-extemporaneous-formulary-2011.pdf \n'
-          '3) Extemporaneous formulations for pediatric, Geriatric, and special patients ASHP publication.\n'
-          '4) https://pubmed.ncbi.nlm.nih.gov/23989641/#:~:text=A%20suspension%20was%20prepared%20by,suspension%20was%2050%20mg%2FmL.',
+          '3)Extemporaneous formulations for pediatric, Geriatric, and special patients ASHP publication.\n'
+          '4)https://pubmed.ncbi.nlm.nih.gov/23989641/#:~:text=A%20suspension%20was%20prepared%20by,suspension%20was%2050%20mg%2FmL.',
     },
   };
 
@@ -1268,8 +1268,8 @@ class Drugs{
       'Beyond-use date':'42 days.',
       'Monitoring Parameters':'ECG (if applicable in high-risk or elderly patients); potassium, magnesium. Monitor for signs of serotonin syndrome; monitor for decreased bowel activity.',
       'Precautions':'Do not disperse the tablets or solution in grapefruit juice.',
-      'References':'- Online lexicomp \n'
-          '- https://www.pdr.net/drug-summary/Ondansetron-ondansetron-hydrochloride-3428#8',
+      'References':'1)Online lexicomp \n'
+          '2)https://www.pdr.net/drug-summary/Ondansetron-ondansetron-hydrochloride-3428#8',
     },
 
   };
@@ -1307,8 +1307,8 @@ class Drugs{
           '- Final product is a thick, opaque, white suspension.\n'
           '- May substitute Ora-Plus/Ora-Sweet with Ora-Blend. \n'
           '- May also substitute Ora-Plus/Ora-Sweet with Ora-Plus/Ora-Sweet SF',
-      'References':'- Handbook of extemporaneous preparations.\n'
-          '-Lexicomp.',
+      'References':'1)Handbook of extemporaneous preparations.\n'
+          '2)Lexicomp.',
     },
   };
 
@@ -1350,11 +1350,11 @@ class Drugs{
       'Precautions':'- large volumes of sodium bicarbonate as a vehicle may be clinically inappropriate for some patients (e.g. congestive cardiac failure, severely fluid-restricted ,chronic renal impairment, metabolic imbalances ).\n'
           '- long period treatment with acid suppressing medication can cause vitamin b12 deficiency and bone fractures.\n'
           '- avoid use of omeprazole with hepatic disease patients .',
-      'References':'- https://www.webmd.com/drugs/2/drug-3766-2250/omeprazole-oral/omeprazole-delayed-release-tablet-oral/details#:~:text=Omeprazole%20is%20used%20to%20treat,difficulty%20swallowing%2C%20and%20persistent%20cough \n'
-          '- https://www.drugs.com/ppa/omeprazole.html \n'
-          '- Handbook of extemporaneous preparation \n'
-          '- https://pdr.net/drug-summary/Omeprazole-omeprazole-24360#8 \n'
-          '- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452384/',
+      'References':'1)https://www.webmd.com/drugs/2/drug-3766-2250/omeprazole-oral/omeprazole-delayed-release-tablet-oral/details#:~:text=Omeprazole%20is%20used%20to%20treat,difficulty%20swallowing%2C%20and%20persistent%20cough \n'
+          '2)https://www.drugs.com/ppa/omeprazole.html \n'
+          '3)Handbook of extemporaneous preparation \n'
+          '4)https://pdr.net/drug-summary/Omeprazole-omeprazole-24360#8 \n'
+          '5)https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452384/',
     },
   };
 
@@ -1385,9 +1385,9 @@ class Drugs{
           '- The use of folic acid is contraindicated in patients with undiagnosed anemia so Doses greater than 0.4 mg/day should be avoided until the diagnosis of pernicious anemia is ruled out.\n'
           '- Food and folic acid interactions : \n'
           'Excessive consumption or using alcohol ( ethanol ) with folic acid may reduce the absorption and increase the elimination of folic acid.',
-      'References':'https://www.pdr.net/drug-summary/Folic-Acid-Tablets-folic-acid-1634.65#10 \n'
-          'https://www.drugs.com/compare/folic-acid \n'
-          'ASHP guidelines',
+      'References':'1)https://www.pdr.net/drug-summary/Folic-Acid-Tablets-folic-acid-1634.65#10 \n'
+          '2)https://www.drugs.com/compare/folic-acid \n'
+          '3)ASHP guidelines',
     },
   };
 
@@ -1429,8 +1429,8 @@ class Drugs{
       'Precautions':'Shake well and refrigerate.\n'
           '- Excipients/Preservatives Safety precautions for Neonates:\n'
           'Methyl Paraben in Simple Syrup NF: displace bilirubin-binding to albumin and may cause hyperbiliru-binemia in concentrations as low as 1.2 mg/kg.',
-      'References':'-  Rita Jew, Winson Soo-Hoo, Sarah Erush, and Elham Amiri, Extemporaneous Preparation for Pediatric,Geriatric and Special Needs Patients(Third Edition),2016, American Society of Health-System Pharmacists.\n'
-          '- https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/129997?cesid=5afAg0hvXML&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3DacetaZOLAMIDE%252520oral%26t%3Dname%26va%3DacetaZOLAMIDE%252520oral#adm',
+      'References':'1)Rita Jew, Winson Soo-Hoo, Sarah Erush, and Elham Amiri, Extemporaneous Preparation for Pediatric,Geriatric and Special Needs Patients(Third Edition),2016, American Society of Health-System Pharmacists.\n'
+          '2)https://online.lexi.com/lco/action/doc/retrieve/docid/pdh_f/129997?cesid=5afAg0hvXML&searchUrl=%2Flco%2Faction%2Fsearch%3Fq%3DacetaZOLAMIDE%252520oral%26t%3Dname%26va%3DacetaZOLAMIDE%252520oral#adm',
     },
   };
 
@@ -1470,9 +1470,9 @@ class Drugs{
       'Monitoring Parameters':'Blood pressure.\n'
           'Heart Rate',
       'Precautions':'Shake bottle before use.',
-      'References':'- Nahata MC, Morosco RS, Brady MT. Extemporaneous sildenafil citrate oral suspensions for the treatment of pulmonary hypertension in children. Am J Health Syst Pharm 2006;63:254-7 \n'
-          '- Jew RK, Soo-Hoo W, Erush. Extemporaneous Formulations for Pediatric, Geriatric, and Special Needs Patients. 2nd ed. American Society of Health System Pharmacists. Bethesda, MD, 2010. \n'
-          '- LexiComp.',
+      'References':'1)Nahata MC, Morosco RS, Brady MT. Extemporaneous sildenafil citrate oral suspensions for the treatment of pulmonary hypertension in children. Am J Health Syst Pharm 2006;63:254-7 \n'
+          '2)Jew RK, Soo-Hoo W, Erush. Extemporaneous Formulations for Pediatric, Geriatric, and Special Needs Patients. 2nd ed. American Society of Health System Pharmacists. Bethesda, MD, 2010. \n'
+          '3)LexiComp.',
     },
   };
 

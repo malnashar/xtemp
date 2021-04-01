@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:xtemp/ui/home.dart';
+
 class Intro extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -16,10 +17,15 @@ class Intro extends StatelessWidget {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.all(10.0),
-                    child: ImageIcon(AssetImage('images/pill_2.png'),size: 110,color: Colors.white,),
+                    child: ImageIcon(
+                      AssetImage('images/pill_2.png'),
+                      size: 110,
+                      color: Colors.white,
+                    ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 0.0,right: 16.0,left: 16.0 , bottom: 0.0),
+                    padding: const EdgeInsets.only(
+                        top: 0.0, right: 16.0, left: 16.0, bottom: 0.0),
                     child: Text(
                       'Xtemp',
                       style: TextStyle(
@@ -49,19 +55,26 @@ class Intro extends StatelessWidget {
                       height: 50.0,
                       //color: Colors.black12,
                       child: new OutlinedButton(
-                        child: new Text("Start" , style: new TextStyle(fontSize: 28.0, color: Colors.white,fontWeight: FontWeight.bold),),
+                        child: new Text(
+                          "Start",
+                          style: new TextStyle(
+                              fontSize: 28.0,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold),
+                        ),
                         //color: Colors.black12,
                         //shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(10.0)),
                         style: OutlinedButton.styleFrom(
                           //primary: Colors.teal,
                           backgroundColor: Colors.black38,
-                          shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(10.0),),
+                          shape: new RoundedRectangleBorder(
+                            borderRadius: new BorderRadius.circular(10.0),
+                          ),
                           //textStyle: TextStyle(color: Colors.black,fontSize: 40,fontStyle: FontStyle.italic),
                         ),
                         onPressed: () {
-                          Navigator.pop(context);////////////////////////
-                          Navigator.push(
-                              context,
+                          Navigator.pop(context); ////////////////////////
+                          Navigator.push(context,
                               MaterialPageRoute(builder: (context) => Home()));
                         },
                       ),
